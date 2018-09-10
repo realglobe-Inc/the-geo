@@ -1,0 +1,64 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheGeo instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheGeo",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "TheGeo",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheGeo",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "detect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Detect current geo location",
+                    "parameters": [
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
