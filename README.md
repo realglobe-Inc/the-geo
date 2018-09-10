@@ -94,7 +94,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-geo@1.0.2](./doc/api/api.md)
++ [the-geo@1.0.4](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-geo-function-create)
   + [TheGeo](./doc/api/api.md#the-geo-class)
 
